@@ -1,4 +1,4 @@
-Simple Maven example project
+Simple Amazon Client
 =============
 
 Requirements
@@ -16,5 +16,12 @@ To build the project, run `mvn package`, this will build the program and place t
 
 Running
 ======
-To Run, use `mvn exec:java`.
 
+Create a file in src/main/resources with the following contents:
+```
+amazon.accessKey=<your amazon access key>
+amazon.secretKey=<your amazon secret key>
+amazon.associateTag=<your amazon associate tag>
+```
+
+Use this filename in Main.java
